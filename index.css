@@ -1,0 +1,50 @@
+body,h2{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+
+
+header ,footer,.main .inn{
+    background: #eee;
+}
+header h2,footer h2{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+
+.content{
+    margin: 3px 0;
+    overflow: hidden;
+}
+.content > div{
+    float:left;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+.content .left , .content .right{
+    background: #999;
+}
+.main{
+    width: 100%;
+}
+.main .inn{
+    margin: 0 103px 0 153px;
+}
+.left{
+    width: 150px;
+    margin-left:-100%;
+}
+.right{
+    width: 100px;
+    margin-left:-100px;
+}
+
